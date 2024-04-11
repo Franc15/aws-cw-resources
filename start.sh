@@ -4,7 +4,6 @@ yum install python3-pip -y
 pip3 install boto3
 mkdir /home/ec2-user/Pictures/
 cd /home/ec2-user/Pictures/
-wget https://github.com/Atorudibo-Seth1/images/raw/main/image1.jpg https://github.com/Atorudibo-Seth1/images/raw/main/image2.jpg https://github.com/Atorudibo-Seth1/images/raw/main/image3.jpg https://github.com/Atorudibo-Seth1/images/raw/main/image4.jpg https://github.com/Atorudibo-Seth1/images/raw/main/image5.jpg
 
 echo "import boto3
 import os
